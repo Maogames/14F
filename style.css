@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('acuarela-corazones-patrones-fisuras_1108-561.avif');
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 200px;
+    border-color: rgb(185, 3, 79);
+    border-style: outset;
+    border-width: 8px;
+}
+
+.container .btn {
+    display: flex;
+    gap: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(234, 0, 255);
+    background: black;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
+
+}
+img{
+    width: 60%;
+    border-color: rgb(185, 3, 79);
+    border-style: outset;
+    border-width: 8px;
+    border-radius: 80px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palevioletred;
+}
+h1{
+    font-family: initial;
+    font-size: 50px;
+    font-style: unset;
+}
+b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palevioletred;
+    font-size: 15px;
+}
+audio{
+    width: 20%;
+    color: palevioletred;
+    border-color: rgb(185, 3, 79);
+    border-style: outset;
+    border-width: 8px;
+    border-radius: 80px;
+}
